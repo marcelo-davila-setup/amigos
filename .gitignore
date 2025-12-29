@@ -1,0 +1,58 @@
+# MarceloSetup v3.0 - GitIgnore
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# Environment variables (sensitive data)
+.env
+*.env
+credentials.env
+
+# Docker volumes and data
+data/
+volumes/
+
+# Backup files
+backups/
+*.backup
+*.bak
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if any)
+node_modules/
+
+# SSH keys and certificates
+*.key
+*.pem
+*.crt
+*.cert
+acme.json
+
+# Test files
+test/
+tests/
+*.test
+
+# Documentation builds
+docs/_build/
